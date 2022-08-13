@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlpic"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/calcultor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#2196F3"
+        android:text="YourProfile"
+        android:textColor="#7887DC"
+        android:textSize="39dp" />
+
+    <TextView
+        android:id="@+id/num1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="45dp"
+        android:layout_marginBottom="-88dp"
+        android:hint="الاسم"
+        android:inputType="textPersonName"
+        android:textColorHint="#121111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/num2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="العمر"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/XXX"
+        android:layout_width="168dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-290dp"
+        android:background="@drawable/profile" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="151dp"
+        android:layout_height="54dp"
+        android:layout_margin="-8dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="189dp"
+        android:backgroundTint="#FFA8DE"
+        android:gravity="center"
+        android:text="التاالي"
+        android:textSize="30dp"
+
+        />
+</LinearLayout>
